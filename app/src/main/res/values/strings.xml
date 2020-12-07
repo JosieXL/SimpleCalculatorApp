@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">CalculatorApp</string>
+    <string name="ac">AC</string>
+    <string name="positiveOrNegative">+/-</string>
+    <string name="percentage">%</string>
+    <string name="divide">÷</string>
+    <string name="NumSeven">7</string>
+    <string name="NumEight">8</string>
+    <string name="NumNine">9</string>
+    <string name="multiply">×</string>
+    <string name="NumFour">4</string>
+    <string name="NumFive">5</string>
+    <string name="NumSix">6</string>
+    <string name="minus">-</string>
+    <string name="NumOne">1</string>
+    <string name="NumTwo">2</string>
+    <string name="NumThree">3</string>
+    <string name="plus">+</string>
+    <string name="NumZero">0</string>
+    <string name="dot">.</string>
+    <string name="ans">ANS</string>
+    <string name="equal">=</string>
+    <string name="_0">0</string>
+</resources>
