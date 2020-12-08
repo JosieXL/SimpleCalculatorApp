@@ -57,7 +57,7 @@
             android:textSize="30sp"
             android:background="@drawable/background_circle_grey"
             app:backgroundTint="@null"
-            android:onClick="numberEvent"
+            android:onClick="signEvent"
             />
 
         <Button
@@ -327,8 +327,5 @@
             android:onClick="equalEvent"
             />
     </LinearLayout>
-
-
-
 
 </LinearLayout>
