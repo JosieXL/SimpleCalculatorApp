@@ -57,7 +57,7 @@
             android:textSize="30sp"
             android:background="@drawable/background_circle_grey"
             app:backgroundTint="@null"
-            android:onClick="numberEvent"
+            android:onClick="signEvent"
             />
 
         <Button
@@ -81,10 +81,10 @@
             android:layout_height="fill_parent"
             android:text="@string/divide"
             android:layout_margin="5dp"
-            android:textColor="@color/white"
             android:textSize="40sp"
-            android:background="@drawable/background_circle_grey"
-            app:backgroundTint="@android:color/holo_orange_dark"
+            android:textColor="@color/button_text_change_color"
+            android:background="@drawable/button_color"
+            app:backgroundTint="@null"
             android:onClick="operatorEvent"
             />
     </LinearLayout>
@@ -145,10 +145,10 @@
             android:layout_height="fill_parent"
             android:text="@string/multiply"
             android:layout_margin="5dp"
-            android:textColor="@color/white"
             android:textSize="40sp"
-            android:background="@drawable/background_circle_grey"
-            app:backgroundTint="@android:color/holo_orange_dark"
+            android:textColor="@color/button_text_change_color"
+            android:background="@drawable/button_color"
+            app:backgroundTint="@null"
             android:onClick="operatorEvent"
             />
     </LinearLayout>
@@ -208,10 +208,10 @@
             android:layout_height="fill_parent"
             android:text="@string/minus"
             android:layout_margin="5dp"
-            android:textColor="@color/white"
             android:textSize="45sp"
-            android:background="@drawable/background_circle_grey"
-            app:backgroundTint="@android:color/holo_orange_dark"
+            android:textColor="@color/button_text_change_color"
+            android:background="@drawable/button_color"
+            app:backgroundTint="@null"
             android:onClick="operatorEvent"
             />
     </LinearLayout>
@@ -271,10 +271,10 @@
             android:layout_height="fill_parent"
             android:text="@string/plus"
             android:layout_margin="5dp"
-            android:textColor="@color/white"
             android:textSize="40sp"
-            android:background="@drawable/background_circle_grey"
-            app:backgroundTint="@android:color/holo_orange_dark"
+            android:textColor="@color/button_text_change_color"
+            android:background="@drawable/button_color"
+            app:backgroundTint="@null"
             android:onClick="operatorEvent"
             />
     </LinearLayout>
@@ -320,15 +320,12 @@
             android:layout_height="fill_parent"
             android:text="@string/equal"
             android:layout_margin="5dp"
-            android:textColor="@color/white"
             android:textSize="40sp"
-            android:background="@drawable/background_circle_grey"
-            app:backgroundTint="@android:color/holo_orange_dark"
+            android:textColor="@color/button_text_change_color"
+            android:background="@drawable/button_color"
+            app:backgroundTint="@null"
             android:onClick="equalEvent"
             />
     </LinearLayout>
-
-
-
 
 </LinearLayout>

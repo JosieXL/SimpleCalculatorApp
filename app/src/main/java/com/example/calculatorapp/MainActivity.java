@@ -64,16 +64,21 @@ public class MainActivity extends AppCompatActivity {
             case R.id.dot:
                 number += ".";
                 break;
-            case R.id.Sign:
-                if (number.contains("-")) {
-                    number = number.substring(1);
-                }
-                else {
-                    number = "-" + number;
-                }
-                break;
         }
         Screen.setText(number);
+    }
+
+    public void signEvent(View view) {
+        isNewOp = true;
+        String no = Screen.getText().toString();
+        if (view.getId() == R.id.Sign) {
+            if (no.contains("-")) {
+                no = no.substring(1);
+            } else {
+                no = "-" + no;
+            }
+        }
+        Screen.setText(no);
     }
 
     @SuppressLint("NonConstantResourceId")
@@ -125,8 +130,15 @@ public class MainActivity extends AppCompatActivity {
 
     @SuppressLint("SetTextI18n")
     public void percentEvent(View view) {
-        double num = Double.parseDouble(Screen.getText().toString()) / 100;
-        Screen.setText(num + "");
+        String numText = Screen.getText().toString();
+        double num = 0.0;
+        if (numText.contains("-")) {
+            num = Double.parseDouble(numText.substring(1)) / 100;
+            Screen.setText("-" + num + "");
+        } else {
+            num = Double.parseDouble(numText) / 100;
+            Screen.setText(num + "");
+        }
         isNewOp = true;
     }
 }
